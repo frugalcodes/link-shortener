@@ -1,0 +1,95 @@
+/* App.css */
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: midnightblue;
+}
+
+.center-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-20%);
+}
+
+.title {
+  font-size: 36px;
+  color: white;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 18px;
+  color: white;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin-bottom: 10px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-field {
+  padding: 12px 20px;
+  border: 2px solid #cccccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  width: 300px;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.button {
+  padding: 12px 24px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: black;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+  background-color: #f0f0f0;
+}
+
+.shortened-link-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.shortened-link-input {
+  flex: 1;
+  padding: 12px;
+  font-size: 14px;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: transparent;
+  border: none;
+}
+
+.copy-button {
+  padding: 12px 20px;
+  background-color: #3b82f6;
+  border: none;
+  border-radius: 0;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.copy-button:hover {
+  background-color: #2563eb;
+}
