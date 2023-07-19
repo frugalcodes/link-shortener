@@ -1,11 +1,11 @@
 
 
-```markdown
-# Link Shortener
+
+### Link Shortener
 
 Link Shortener is a simple web application that allows users to shorten long URLs. It provides a convenient way to generate shortened links that are easier to share and remember.
 
-## Features
+### Features
 
 - Enter a long URL and get a shortened link.
 - Copy the shortened link to the clipboard with a single click.
@@ -78,4 +78,3 @@ Find more of my projects on GitHub:
 This project is licensed under the [MIT License](LICENSE).
 ```
 
-You can copy the entire content above and paste it into a new file in your VS Code editor.
